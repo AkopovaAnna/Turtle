@@ -17,7 +17,7 @@ public class Handler {
 
     public void turn(int direction){
         if (direction == Commands.TURN_RIGHT) {
-            turtle.setDirection(turtle.getDirection().turnRight()); //yet have enum Direction class :D
+            turtle.setDirection(turtle.getDirection().turnRight()); 
 
         } else if (direction == Commands.TURN_LEFT) {
             turtle.setDirection(turtle.getDirection().turnLeft());
